@@ -6,6 +6,8 @@ import Login from './Components/Login';
 import Register from './Components/Register';
 import Dashboard from './Components/Dashboard';
 import HomePage from './Components/HomePage';
+import PinPass from './Components/PinPass';
+
 
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />
         <Route exact path="/dashboard" component={Dashboard} />
+        <Route exact path="/pin" component={PinPass} />
       </Switch>
     </Router>
   

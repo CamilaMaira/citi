@@ -33,7 +33,7 @@ function HomePage(props) {
       <path d="M80.6 59.9999C83.8874 57.3125 86.5037 54.084 88.2911 50.5092C90.0785 46.9344 91 43.0873 91 39.1999C91 35.3125 90.0785 31.4654 88.2911 27.8906C86.5037 24.3158 83.8874 21.0873 80.6 18.3999" stroke="#3629B7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
 
-      <Link to="/dashboard">
+      <Link to="/pin">
       <button
         type="submit"
         className="">
