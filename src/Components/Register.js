@@ -12,23 +12,25 @@ function Register(props) {
   const [ password, setPassword] = useState("");
 
   return (
-    <main>
+    <div className="container">
+    <main className="main-container">
+      <section className="register-container">
 
-        <label>Ingresa tu Nombre</label>
+        <label>Nombre</label>
         <input 
         id="name"
         value={name} 
         onChange={e => setName(e.target.value)}
         />
 
-      <label>Ingresa tu Email</label>
+      <label>Correo</label>
        <input 
         id="email"
         value={email} 
         onChange={e => setEmail(e.target.value)}
         />
 
-        <label>Ingresa tu clave</label>
+        <label>Clave</label>
         <input 
         id="password"
         type="password"
@@ -45,8 +47,10 @@ function Register(props) {
         </button>
         </Link>
 
-
+      </section>
     </main>
+    </div>
+
   )
 
   async function onRegister () {
