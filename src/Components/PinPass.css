@@ -1,0 +1,33 @@
+
+/* .warning{
+
+} */
+.acces{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    width: 94%;
+    padding: 2%;
+}
+#containerPin{
+    padding-top:18%;
+  padding-left: 16%;
+  padding-right: 16%;
+}
+#containerPin .btn{
+    font-size: 130%;
+}
+
+#numbers button{
+width: 30%;
+border: none;
+background: transparent;
+font-size: 150%;
+padding-top: 7%;
+padding-bottom: 7%;
+padding-right:16%;
+padding-left:16%;
+}
+.warning {
+    font-size: 80%;
+}
+ 

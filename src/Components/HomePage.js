@@ -13,9 +13,30 @@ function HomePage(props) {
       <button
         type="submit"
         className="">
-          OJO OJO
+          Verificación Ojo
       </button>
       </Link>
+
+      <Link to="/huella">
+      <button
+        type="submit"
+        component={Link}
+        to="/register"
+        className="">
+          Verificación Huella
+      </button>
+      </Link>
+
+      <Link to="/pin">
+      <button
+        type="submit"
+        component={Link}
+        to="/register"
+        className="">
+          Verificación Pin
+      </button>
+      </Link>
+      
 
       <Link to="/register">
       <button
