@@ -6,12 +6,12 @@ function Dashboard(props) {
   const { classes } = props  
 
   //checkear si el usuario esta logeado
-  if(!firebase.getCurrentUsername()) {
+/*   if(firebase.getCurrentUsername()) {
     //not logeado
     alert("Primero inicia sesión!")
     props.history.replace('/login')
     return null 
-  }
+  } */
 
 
   return (
