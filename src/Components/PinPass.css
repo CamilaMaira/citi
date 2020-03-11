@@ -1,7 +1,8 @@
 
-/* .warning{
-
-} */
+*{
+    background: #281C9D;
+    color:#ffffff
+}
 .acces{
     border-top-style: solid;
     border-bottom-style: solid;
@@ -12,9 +13,16 @@
     padding-top:18%;
   padding-left: 16%;
   padding-right: 16%;
+  
+  color: #ffffff;
+  height: 100%;
 }
 #containerPin .btn{
     font-size: 130%;
+    
+}
+#numbers{
+    width: 100%;
 }
 
 #numbers button{

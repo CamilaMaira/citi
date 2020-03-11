@@ -80,7 +80,7 @@ function PinPass() {
           <button>0</button>
           <button>B</button></div>
         </div>
-    <div className="row justify-content-center"> <button type="button"   className="btn btn-light">Confirmar</button></div>
+  <div className="row justify-content-center"> <button type="button"   className="btn btn-light">Confirmar</button></div>
 </div>
   );
 };
