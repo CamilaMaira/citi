@@ -1,7 +1,34 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import $ from "jquery";
 import "./Pago.css";
 
 function Pago () {
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+const recognition = new SpeechRecognition();
+recognition.start();
+  const voiceCommands = () => {
+    // On start
+    recognition.onstart = () => {
+      console.log('Voice is actived');
+    }
+    // Do something when we get a result
+    recognition.onresult = (e) => {
+      let current = e.resultIndex;
+      let transcript = e.results[current][0].transcript;
+      let mobileRepeatBug = (current === 1 && transcript === e.results[0][0].transcript);
+      if(!mobileRepeatBug) {
+        if(transcript === "Tomar foto"|| transcript === " Tomar foto"||transcript === "tomar foto"||transcript === " tomar foto") {
+          console.log(transcript);
+          setTimeout(() => {
+            $("#photo").click()
+          }, 2000); 
+        }
+      }
+    }}
+  useEffect(() => {
+    voiceCommands();
+  });
      return(
         <div className="Pago">
         <h1>Pago</h1>
@@ -20,7 +47,7 @@ function Pago () {
 <path d="M49.84 12.2299H42.3165L37.9733 7.48658H23.7333V12.2299H35.8848L40.228 16.9732H49.84V45.4333H11.8667V24.0882H7.12V45.4333C7.12 48.0421 9.256 50.1766 11.8667 50.1766H49.84C52.4507 50.1766 54.5867 48.0421 54.5867 45.4333V16.9732C54.5867 14.3644 52.4507 12.2299 49.84 12.2299ZM18.9867 31.2032C18.9867 37.7491 24.3029 43.0616 30.8533 43.0616C37.4037 43.0616 42.72 37.7491 42.72 31.2032C42.72 24.6574 37.4037 19.3449 30.8533 19.3449C24.3029 19.3449 18.9867 24.6574 18.9867 31.2032ZM30.8533 24.0882C34.7693 24.0882 37.9733 27.29 37.9733 31.2032C37.9733 35.1165 34.7693 38.3182 30.8533 38.3182C26.9373 38.3182 23.7333 35.1165 23.7333 31.2032C23.7333 27.29 26.9373 24.0882 30.8533 24.0882ZM11.8667 12.2299H18.9867V7.48658H11.8667V0.371582H7.12V7.48658H0V12.2299H7.12V19.3449H11.8667V12.2299Z" fill="#3629B7"/>
 </svg>
 </div>
-<button className="BtnFoto">Tomar foto</button>
+<Link to="/photo"> <button id="photo" className="BtnFoto">Tomar foto</button> </Link>
 </div>
 <div className="LLenarFormulario">
 <div className="iconoFormulario">

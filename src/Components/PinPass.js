@@ -4,10 +4,11 @@ import $ from "jquery";
 import './PinPass.css'
 
 
-const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+function PinPass() {
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
 recognition.start();
-function PinPass() {
   const voiceCommands = () => {
     // On start
     recognition.onstart = () => {
@@ -24,7 +25,7 @@ function PinPass() {
           document.getElementById("pin").innerHTML= transcript
           setTimeout(() => {
             $("#ok").click()
-          }, 3000); 
+          }, 2000); 
         }
       }
     }}
