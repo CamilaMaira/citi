@@ -6,6 +6,8 @@ import Login from './Components/Login';
 import Register from './Components/Register';
 import Dashboard from './Components/Dashboard';
 import HomePage from './Components/HomePage';
+import transactions from './Components/Transactions';
+import RutaSimulacion from './Components/RutaSimulacion';
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />
         <Route exact path="/dashboard" component={Dashboard} />
+        <Route exact path="/Transactions" component={transactions} />
+        <Route exact path="/RutaSimulacion" component={RutaSimulacion} />
       </Switch>
     </Router>
   
