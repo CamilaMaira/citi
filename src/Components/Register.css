@@ -1,45 +1,68 @@
-@media (max-width:768px) {
+ @media (max-width:768px) {
 
   .container {
     background-color: #281C9D;
     width: 100%;
     height: 100vh;
   }
- 
-    .main-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-    }
+
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 
     .register-container {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      height: 80%;
-      background-color: white;
-      border-top-right-radius: 40px;
-      border-top-left-radius: 40px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+        height: 80%;
+        width: 100%;
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
       }
 
-input {
+      .registrate {
+    
+        display: flex;
+        justify-content: center;
+        margin-left: -120px;
+      }
+
+      .registrate p {
+      color:#3629B7;
+      font-size: 18px;
+      font-weight: 600;
+      }
+
+      .registrate svg {
+        margin-top: 6px;
+        margin-right: 20px;
+      }
+
+     
+
+.register-input {
   border-radius: 15px;
   height: 40px;
   width: 250px;
   border: 2px solid #281C9D;
 }
+
+
 .email, 
 .password,
 .name {
-  color: #c4c4c4;
-  margin-top: 20px;
-  font-size: 20px;
+  color:#3629B7;
+  margin-top: 18px;
+  font-size: 18px;
 }
+
 
 .btn-ok button {
   margin-top: 40px;
@@ -49,9 +72,9 @@ input {
   border-radius: 15px;
   color: white;
   font-size: 18px;
-}
+  }
+} 
 
-.btn-ok button a {
-  text-align: center;
-}
-}
+
+ 
+  
