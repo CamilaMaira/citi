@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import $ from "jquery";
+import './PinPass.css'
+
+
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
 recognition.start();
@@ -29,32 +32,44 @@ function PinPass() {
     voiceCommands();
   });
   return (
-    <div className="">
-       <h3 className="">Hola Rodrigo</h3>
-       <div className=""><p>Introduce el PIN (número secreto) de tu tarjeta o usuario de Banca electrónica</p></div>
+    <div className="container">
+      <main className="main-container">
+        <section className="pinpass-container">
+       <h3 className="title-name">Hola Rodrigo</h3>
+       <div className="text-above">
+         <p>Por favor ingresa tu clave</p>
+      </div>
+
+      <div className="container-pin"> 
       <p id="pin"></p>
-      <div className=""> <p>NO PUEDO ACCEDER</p></div>
-      <div id="numbers" className="">
+      </div>
+
+      <div id="numbers" className="container-numbers">
           <div className="cont1">
-            <button>1</button>
+          <button>1</button>
           <button>2</button>
           <button>3</button>
           </div>
           <div className="cont2">
-            <button>4</button>
+          <button>4</button>
           <button>5</button>
           <button>6</button>
           </div>
-          <div className="cont3"> <button>7</button>
+          <div className="cont3"> 
+          <button>7</button>
           <button>8</button>
           <button>9</button>
           </div>
          <div className="cont4"> 
-           <button>0</button>
+           <button>*</button>
           <button>0</button>
           <button>B</button></div>
+
+          <div className="not-access"> <p>NO PUEDO ACCEDER</p></div>
         </div>
-     <Link to="/hola"><button id="ok">Confirmar</button></Link>
+     <Link to="/dashboard"><button id="ok" className="confirmar">Confirmar</button></Link>
+     </section>
+     </main>
     </div>
   );
 }
