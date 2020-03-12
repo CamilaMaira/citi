@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+@media (max-width: 768px) {
+    .Transactions{
+        background-color: #281C9D;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        
+
+    }
+    .select-cards{
+        display: flex;
+       width: 70%;
+       height: 5vh;
+       margin-top: 10%;
+       margin-left: 15%;
+       border-radius: 20px;
+       color: #3629B7;
+       font-family: 'Poppins', sans-serif;
+      font-size: 24px;
+      background-color: #FFFFFF;
+      font-weight: bold;
+       
+    }
+   .cantainer-image{
+   display: flex;
+   align-content: center;
+    margin-top: 5%;
+    width: 70%;
+    height: 20vh;
+    margin-left: 15%;
+    z-index: 1000;
+  
+   }
+.imgtarget{
+    width: 250%;
+    height: 200%;
+    margin-top: -130px;
+}
+   .SecondaryContainer{
+background-color: #FFFFFF;
+width: 100%;
+position: fixed;
+bottom: 0;
+height: 80%;
+border-top-left-radius: 70px;
+border-top-right-radius: 70px;
+   }
+   .options-views{
+       margin-top: 35%;
+       width: 70%;
+       margin-left: 15%;
+       height: 5vh;
+   }
+   .Btn-Operaciones{
+       width: 45%;
+       height: 5vh;
+       font-family: 'Poppins', sans-serif;
+       font-size: 24px;
+       background-color: #FFFFFF;
+       color: #3629B7;
+       border: none;
+       border-bottom: 8px solid #3629B7;
+       margin-left: 10px;
+       font-weight: bold;
+
+   }
+   .Btn-Movimientos{
+       width: 45%;
+       height: 5vh;
+       font-family: 'Poppins', sans-serif;
+       font-size: 24px;
+       background-color: #FFFFFF;
+       color: #3629B7;
+       border: none;
+       border-bottom: 8px solid #3629B7;
+       font-weight: bold;
+         }
+   .Operations{ 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+
+   }
+
+   .Btn-Agua{
+    width: 100%;
+    height: 7.5vh;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    background-color: #FFFFFF;
+    color: #3629B7;
+    font-weight: bold;
+   }
+   .Btn-Luz{
+    margin-top: 10%;
+    width: 100%;
+    height: 7.5vh;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    background-color: #FFFFFF;
+    color: #3629B7;
+    font-weight: bold;
+   }
+   .Btn-Cajero-Efectivo{
+    margin-top: 10%;
+    width: 100%;
+    height: 7.5vh;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    background-color: #FFFFFF;
+    color: #3629B7;
+    font-weight: bold;
+   }
+   .Btn-Personales{
+    margin-top: 10%;
+    width: 100%;
+    height: 7.5vh;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    background-color: #FFFFFF;
+    color: #3629B7;
+    margin-bottom: 10%;
+    font-weight: bold;
+
+   }
+  
+
+}
