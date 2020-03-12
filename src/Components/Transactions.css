@@ -1,96 +1,104 @@
-/* @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 @media (max-width: 768px) {
-    .Transactions{
-        background-color: #281C9D;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        
 
-    }
+  .container {
+    background-color: #281C9D;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .Transactions {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    height: 80%;
+    width: 100%;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
     .select-cards{
-        display: flex;
-       width: 70%;
-       height: 5vh;
-       margin-top: 5%;
-       margin-left: 15%;
-       border-radius: 20px;
-       color: #3629B7;
-       font-family: 'Poppins', sans-serif;
-      font-size: 24px;
+      display: flex;
+      align-items: center;
+      margin-top: 40px;
+      width: 280px;
+      height: 40px;
+      border-radius: 20px;
+      color: #3629B7;
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
       background-color: #FFFFFF;
       font-weight: bold;
-       
+      z-index: 2;
     }
+
    .cantainer-image{
-   display: flex;
-   align-content: center;
-    margin-top: 10%;
-    width: 70%;
-    height: 20vh;
-    margin-left: 15%;
-    z-index: 1000;
-  
+     z-index: 1000;
    }
-.imgtarget{
-    width: 250%;
-    height: 200%;
-    margin-top: -130px;
-}
-.SecondaryContainer{
-background-color: #FFFFFF;
-width: 100%;
-position: fixed;
-bottom: 0;
-height: 80%;
-border-top-left-radius: 70px;
-border-top-right-radius: 70px;
-   }
-   .options-views{
-       margin-top: 30%;
-       width: 70%;
-       margin-left: 20%;
-       height: 5vh;
-   }
-   .Btn-Operaciones{
+   
+    .imgtarget{
+      margin-top: 20px;
+      width: 90%;
+      margin-left: 15px;
+    }
+
+    .options-views{
+      margin-top: 100px;
+      width: 70%;
+      height: 50px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+  }
+   .Btn-Operaciones {
        width: 40%;
-       height: 5vh;
-       font-family: 'Poppins', sans-serif;
-       font-size: 24px;
+       height: 40px;
+       font-size: 16px;
        background-color: #FFFFFF;
        color: #3629B7;
        border: none;
-       border-bottom: 8px solid #3629B7;
-       margin-left: 10px;
+       border-bottom: 4px solid #3629B7;
+     
        font-weight: bold;
+   }
+
+   .Btn-Movimientos {
+    width: 40%;
+    height: 40px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #3629B7;
+    border: none;
+    margin-left: -20px;
+    font-weight: 400;
 
    }
-   .Btn-Movimientos{
-       width: 40%;
-       height: 5vh;
-       font-family: 'Poppins', sans-serif;
-       font-size: 24px;
-       background-color: #FFFFFF;
-       color: #3629B7;
-       border: none;
-       border-bottom: 8px solid #3629B7;
-       font-weight: bold;
-         }
+
    .Operations{ 
+     border:1px solid black;
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 10%;
-
+    width:70%;
+    margin-top: 5%;
    }
 
-   
    .Btn-Agua{
+     border: 1px solid red;
     width: 100%;
     height: 7.5vh;
     border-radius: 20px;
@@ -100,11 +108,17 @@ border-top-right-radius: 70px;
     color: #3629B7;
     font-weight: bold;
     border: 2px solid #3629B7;
+    display: flex;
+    align-items: center;
+
    }
    .iconoAgua{
-width: 40px;
-margin-left: -40%;
-margin-right: 15%;
+    
+    width: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+
+
    }
    
    .Btn-Luz{
@@ -159,4 +173,4 @@ margin-right: 15%;
    }
   
 
-} */
+}
