@@ -8,7 +8,6 @@ import Dashboard from './Components/Dashboard';
 import HomePage from './Components/HomePage';
 import transactions from './Components/Transactions';
 import Pago from './Components/pago';
-
 import PinPass from './Components/PinPass';
 
 
