@@ -9,6 +9,7 @@ import HomePage from './Components/HomePage';
 import transactions from './Components/Transactions';
 import Pago from './Components/pago';
 import PinPass from './Components/PinPass';
+import MedioDePago from './Components/mediodepago';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route exact path="/Transactions" component={transactions} />
         <Route exact path="/pin" component={PinPass} />
         <Route exact path="/Pago" component={Pago} />
+        <Route exact path="/MedioDePago" component={MedioDePago} />
       </Switch>
     </Router>
   
