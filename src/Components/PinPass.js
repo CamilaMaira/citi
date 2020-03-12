@@ -61,13 +61,13 @@ function PinPass() {
           <button>9</button>
           </div>
          <div className="cont4"> 
-           <button>*</button>
+           <button>+</button>
           <button>0</button>
           <button>B</button></div>
 
           <div className="not-access"> <p>NO PUEDO ACCEDER</p></div>
         </div>
-     <Link to="/dashboard"><button id="ok" className="confirmar">Confirmar</button></Link>
+     <Link to="/Transactions"><button id="ok" className="confirmar">Confirmar</button></Link>
      </section>
      </main>
     </div>
