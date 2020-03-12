@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+@media (max-width: 768px) {
+    .Mediodepago{
+        background-color: #281C9D;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .textPago{
+        color: #FFFFFF;
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        margin-left: 5%;
+        font-weight: bold;
+    }
+
+    .containerwhite{
+        background-color: #FFFFFF;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        height: 80%;
+        border-top-left-radius: 70px;
+        border-top-right-radius: 70px;
+        display: flex;
+        flex-direction: column;
+}
+.textEmpresa{
+    color: #281C9D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.SelectEmpresa{
+    width: 70%;
+    margin-left: 15%;
+    height: 40px;
+    color: #281C9D;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.textMonto{
+    color: #281C9D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 13px;
+    font-weight: bold;
+}
+.InputMonto{
+    width: 70%;
+    margin-left: 15%; 
+    height: 40px;
+    color: #281C9D;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.textMediodepago{
+    color: #281C9D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.SelectMedioPago{
+    width: 70%;
+    margin-left: 15%; 
+    height: 40px;
+    color: #281C9D;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.textFecha{
+    color: #281C9D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.InputFecha{
+    width: 70%;
+    margin-left: 15%; 
+    height: 40px;
+    color: #281C9D;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.containerMicrofono{
+  
+    width: 15%;
+    margin-left: 42.5%; 
+    height: 15%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    align-content: center;
+
+}
+.BtnConfirmar{
+    width: 70%;
+    height: 7.5vh;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    background-color: #281C9D;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 2px solid #3629B7;
+    margin-left: 15%;
+}
+}

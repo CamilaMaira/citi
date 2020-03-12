@@ -14,6 +14,7 @@ function Register(props) {
 
   return (
     <div className="container">
+    
     <main className="main-container">
       <section className="register-container">
 
