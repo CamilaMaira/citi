@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import firebase from '../Firebase';
 import { withRouter, Link } from 'react-router-dom'
+import './Register.css'
 
 
 
@@ -43,7 +44,7 @@ function Register(props) {
         type="submit"
         onClick={onRegister}
         className="">
-          OK
+          Registrate
         </button>
         </Link>
 
