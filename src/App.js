@@ -7,7 +7,8 @@ import Register from './Components/Register';
 import Dashboard from './Components/Dashboard';
 import HomePage from './Components/HomePage';
 import transactions from './Components/Transactions';
-import RutaSimulacion from './Components/RutaSimulacion';
+import Pago from './Components/pago';
+
 import PinPass from './Components/PinPass';
 
 
@@ -29,9 +30,8 @@ function App() {
         <Route exact path="/register" component={Register} />
         <Route exact path="/dashboard" component={Dashboard} />
         <Route exact path="/Transactions" component={transactions} />
-        <Route exact path="/RutaSimulacion" component={RutaSimulacion} />
         <Route exact path="/pin" component={PinPass} />
-
+        <Route exact path="/Pago" component={Pago} />
       </Switch>
     </Router>
   
