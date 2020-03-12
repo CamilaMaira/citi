@@ -10,7 +10,6 @@ export const loginUser = (email, password) => {
                 dispatch({type: "LOGIN_USER", payload: user});
                 return user;
             }
-
     }
 }
 
