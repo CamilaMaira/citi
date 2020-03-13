@@ -10,6 +10,7 @@ import transactions from './Components/Transactions';
 import Pago from './Components/pago';
 import PinPass from './Components/PinPass';
 import TakePhoto from './Components/TakePhoto';
+import MedioDePago from './Components/mediodepago';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route exact path="/pin" component={PinPass} />
         <Route exact path="/Pago" component={Pago} />
         <Route exact path="/photo" component={TakePhoto} />
+        <Route exact path="/MedioDePago" component={MedioDePago} />
       </Switch>
     </Router>
   

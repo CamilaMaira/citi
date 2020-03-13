@@ -68,7 +68,9 @@ recognition.start();
 
           <div className="not-access"> <p>NO PUEDO ACCEDER</p></div>
         </div>
-     <Link to="/Transactions"><button id="ok" className="confirmar">Confirmar</button></Link>
+     <Link to="/Transactions">
+       <button id="ok" className="confirmar">Confirmar</button>
+       </Link>
      </section>
      </main>
     </div>

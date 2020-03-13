@@ -40,7 +40,6 @@
   }
 
   .container-numbers {
-
     margin-top: 20px;
     width: 80%;
     display: flex;
@@ -53,7 +52,6 @@
     color:#3629B7;
     font-weight: 600;
   }
-
 
 #numbers button {
 width: 30%;

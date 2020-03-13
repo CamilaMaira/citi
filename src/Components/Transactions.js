@@ -40,7 +40,8 @@ recognition.start();
       <div className="container-select">
         <select className="select-cards" placeholder="Elige una tarjeta">
         <option value="0">Elige una tarjeta</option>
-        <option>Hola</option>
+        <option>Tarjeta de Débito</option>
+        <option>Tarjeta de Crédito</option>
        </select>
        </div>
 

@@ -1,0 +1,47 @@
+.photo-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.BtnPay{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  background-color: #281C9D;
+  color: #FFFFFF;
+  font-weight: bold;
+  border: 2px solid #3629B7;
+  margin-top: 40px;
+}
+
+.inside {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SelectPay{
+  width: 300px;
+  height: 40px;
+  color: #281C9D;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.select-label {
+
+  margin-top: 15px;
+margin-bottom: 15px;
+  font-size: 18px;
+  text-align: center;
+  color: #281C9D;
+
+}
